@@ -8,7 +8,7 @@
 
 ## Database ##
 
-* [Transaction](blob/master/database/transaction.md)
+* [Transaction](http://www.url.com)
 
 ## Object oriented ##
 
