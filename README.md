@@ -17,7 +17,7 @@
 ## Database ##
 
 * Basic concept
-* SQL
+* [SQL](https://github.com/chinaHewei/happy-learning/blob/master/database/sql.md)
 * [Transaction](https://github.com/chinaHewei/happy-learning/blob/master/database/transaction.md)
 
 ## Object oriented ##
