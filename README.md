@@ -26,5 +26,9 @@
 
 ## Network ##
 
+## Distributed system ##
+
+* [Idempotence](https://github.com/chinaHewei/happy-learning/blob/master/distributed-system/idempotence.md)
+
 ## Book list ##
 
