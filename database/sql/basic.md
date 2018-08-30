@@ -111,4 +111,27 @@ for each 元祖t1 in 关系r1
 (department.dept_name, department_building, department.alias, user.id, user.name, user.alias)
 ```
 
-然后在 from 出来的结果上按照 where 的条件筛选符合的元祖。
+然后在 from 出来的结果上按照 where 的条件筛选符合的元祖。**where** 子句中的谓词
+是用来限制笛卡尔积所建立的组合，只留下哪些对所需答案有意义的组合。
+
+## 对查询出来的结果进行操作 ##
+
+### 排序操作 ###
+
+> order by A asc/desc
+
+* asc: 升序（默认）
+* desc: 降序
+
+```sql
+select * from user order by name asc;
+select * from user order by name asc, id desc;
+```
+
+### 去重操作 ###
+
+> distinct A
+
+```sql
+select distinct dept_name from department;
+```
