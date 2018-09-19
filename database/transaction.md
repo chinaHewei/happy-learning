@@ -53,3 +53,19 @@
   **幻读**。
 * 未提交读 (`read uncommited`)：允许读取未提交的数据。这个 SQL 允许的最低一致性
   级别。会出现**脏读**、**不可重复读**和**幻读**。
+
+## 事务传播机制 (`Transaction Propagation`)
+
+* `propagation required` (default): 如果当前有事务，支持当前事务（公用一个事务），
+  如果没有事务的话，自己新建一个事务。
+* `propagation supports`: 如果当前有事务，则支持当前事务；如果没有，以非事务的形式
+  运行。
+* `propagation mandatory`: 必须在事务中运行，如果没有事务，则抛出异常。说明它只能
+  被一个父事务调用。
+* `propagation required new`: 启动一个新的事务，如果已经存在事务，则挂起。这个两
+  个是**单独的事务**（拥有自己的隔离范围，自己的锁等等）。
+* `propagation not supported`: 不支持事务，如果有事务的话，将当前事务挂起。
+* `propagation never`: 不支持事务，不能在事务中运行，如果存在事务的话，将抛出异常
+* `propagation nested`: 开始一个 "嵌套的" 事务,  它是已经存在事务的一个真正的子事
+  务. 潜套事务开始执行时,  它将取得一个 savepoint. 如果这个嵌套事务失败, 我们将回
+  滚到此 savepoint. 潜套事务是外部事务的一部分, 只有外部事务结束后它才会被提交
