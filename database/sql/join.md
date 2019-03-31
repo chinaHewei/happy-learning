@@ -39,6 +39,8 @@ union
 select * from tableB right outer join tableA on tableA.name = tableB.name;
 ```
 
+![full outer join](../resources/full_outer_join.png)
+
 ## Left/Right Outer Join
 
 > Left Outer Join 考虑左表中的全部行，和右表中与左表匹配的行，如果没有匹配的话，以 `null` 代替。
@@ -50,3 +52,11 @@ select * from tableA left outer join tableB on tableA.columnA = tableB.columnB;
 
 select * from tableA right outer join tableB on tableA.columnA = tableB.columnB;
 ```
+
+Left outer join example:
+
+![lert outer join](../resources/left_outer_join.png)
+
+Right outer join exmalpe:
+
+![Right outer join](../resources/right_outer_join.png)
