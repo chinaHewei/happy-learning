@@ -7,6 +7,7 @@
 ## Java ##
 
 * Java logging system
+* Java Concurrent
 
 ## Data structure ##
 
@@ -21,8 +22,11 @@
 ## Database ##
 
 * Basic concept
+* MySQL
+  + [MySQL Basic Command](https://github.com/chinaHewei/happy-learning/blob/master/database/mysql/basic_command.md)
 * SQL
-  + [Basic](https://github.com/chinaHewei/happy-learning/blob/master/database/sql/basic.md)
+  + [SQL Basic](https://github.com/chinaHewei/happy-learning/blob/master/database/sql/basic.md)
+  + [SQL Join](https://github.com/chinaHewei/happy-learning/blob/master/database/sql/join.md)
 * [Transaction](https://github.com/chinaHewei/happy-learning/blob/master/database/transaction.md)
 
 ## Object oriented ##
