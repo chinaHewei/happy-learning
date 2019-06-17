@@ -26,6 +26,8 @@ for (int i = 0; i < arr.length; i++) {
 }
 ```
 
+> 详细请见 [SelectionSort.java](https://github.com/chinaHewei/Algorithms/blob/master/src/main/java/demo/algorithm/SelectionSort.java)
+
 ## 比较 & 交换次数
 
 比较：N<sup>2</sup>/2

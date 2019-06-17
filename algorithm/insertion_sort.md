@@ -14,6 +14,8 @@ for (int i = 1; i < arr.length; i++) {
 }
 ```
 
+> 详细请见 [InsertionSort.java](https://github.com/chinaHewei/Algorithms/blob/master/src/main/java/demo/algorithm/InsertionSort.java)
+
 ## 比较 & 交换次数
 
 比较：
