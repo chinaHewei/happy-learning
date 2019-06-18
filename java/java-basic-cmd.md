@@ -35,4 +35,3 @@ Extract jar file.
 ```shell
 $ jar x[v]f Demo.jar
 ```
-
