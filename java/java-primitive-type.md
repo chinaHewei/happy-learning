@@ -35,7 +35,8 @@ public class Application {
         System.out.println(byteFiled);
 
         byte byteLocalVariable;
-        // Not ok, compile error: Error:(15, 28) java: variable byteLocalVariable might not have been initialized
+        // Not ok, will cause compile error:
+        // Error:(15, 28) java: variable byteLocalVariable might not have been initialized
         System.out.println(byteLocalVariable);
     }
 }
